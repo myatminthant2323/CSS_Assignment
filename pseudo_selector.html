@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pseudo Selector</title>
+	<style type="text/css">
+		
+		a {
+			font-size: 20px;
+		}
+
+		a:hover {
+			color :red;
+		}
+
+		a:visited {
+			color: yellow;
+		}
+
+		a:active{
+			color: green;
+		}
+
+		input[name="hello"]:focus{
+			background-color: gray;
+		}
+
+		li:first-child{
+			color: green;
+		}
+
+		li:last-child{
+			color: yellow;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<a href="https://www.google.com">Google</a>
+
+	<!-- <a href="https://www.myatminthant.me">Myat Min Thant</a> -->
+
+	<input type="text" name="hello">
+
+	<ul>
+		<li>Apple</li>
+		<li>Dell</li>
+		<li>Acer</li>
+	</ul>
+</body>
+</html>

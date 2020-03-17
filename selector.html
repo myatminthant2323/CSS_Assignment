@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Selector</title>
+	<style type="text/css">
+		*{
+			color: gray;
+			margin: auto;
+		}
+		#para1{
+			color: brown;
+		}
+		#para2{
+			font-size: 30px;
+		}
+		.clas{
+			color: green;
+		}
+		h1{
+			font-size: 25px;
+		}
+		/*h1,p,a,span{
+			font-size: 50px;
+		}*/
+		p[title="para"]{
+			color: red;
+			font-size: 20px; 
+		}
+		p a{
+			color: yellow;
+		}
+		p>a{
+			color: brown;
+		}
+		
+	</style>
+</head>
+<body>
+	<h1>Hello Japanese Bootcamper!</h1>
+
+	<p id="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="clas"> Hello! </span> Ut enim ad minim veniam,	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<p id="para2" class="clas">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<h1 class="clas">Good Morning!</h1>
+	<h1 class="clas">Hello Everyone!</h1>
+	<h1 class="clas">Hello CSS Lesson</h1>
+
+	<p title="para">Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<br>
+
+	<p title="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+	<br>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. <a href="">Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco</a> laboris nisi ut aliquip ex ea commodo
+	consequat.<span><a href="">Duis aute irure dolor in reprehenderit in voluptate velit esse</a></span> 
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</body>
+</html>
